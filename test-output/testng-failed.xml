@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="cv-library-uk-hw(failed)">
+    <classes>
+      <class name="uk.co.library.JobSearchTest">
+        <methods>
+          <include name="iInit"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyJobSearchResultUsingDifferentDataSet"/>
+        </methods>
+      </class> <!-- uk.co.library.JobSearchTest -->
+    </classes>
+  </test> <!-- cv-library-uk-hw(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
